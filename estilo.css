@@ -1,0 +1,106 @@
+header{
+    background-color: #303845;
+    color: white;
+}
+
+header a{
+    float: left;
+}
+
+#img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .menu{
+    float: right;
+    margin-top: 25px;
+    background-color: brown;
+    height: 40px;
+    width: 100px;
+    padding-top: 15px;
+}
+
+.separador{
+    clear: both;
+}
+
+#izq{
+    float: left;
+    width: 70%;
+}
+
+#der{
+    float: left;
+    width: 30%;
+    background-color: #FF952D;
+    text-align: center;
+}
+
+#izq article{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#izq article#linea{
+    
+    border-bottom: solid black 1px;
+}
+#der article{
+    width: 80%;
+    height: 250px;
+    background-color: chocolate;
+    margin: 30px 60px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+footer{
+    clear: both;
+    background-color: #303845;
+    display: block;
+}
+
+.pie1{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: brown;
+    height: 30px;
+    width: 80px;
+    padding-top: 15px;
+}
+
+.pie2{
+    float: right;
+    background-color: coral;
+    height: 30px;
+    width: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+.menu a, .pie1 a, .pie2 a{
+    text-decoration: none;
+    color: white !important;
+    padding-left: 20%;
+}
+
+blockquote{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu:hover, .pie1:hover{
+    background-color: coral;
+}
+
+.pie2:hover{
+    background-color: brown;
+}
